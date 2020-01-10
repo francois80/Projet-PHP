@@ -1,0 +1,59 @@
+#navSettings {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  z-index: 3;
+}
+.logoNav {
+  max-height: 10vh;
+}
+#contactAndAdressNav>p {
+  line-height: 30%;
+}
+.navLinkSettings {
+  color: #7c7c7c;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+a:hover {
+  color: #3f3f3f;
+}
+#xmlPagesContent {
+  background-color: #dbdbdb;
+  margin-top: 10vh;
+}
+.row {
+  margin: auto;
+}
+body {
+  background-color: #1e1e1e;
+}
+footer {
+  background-color: #1e1e1e;
+}
+@media screen and (max-width: 990px) {
+  #contactAndAdressNav {
+    display: none;
+  }
+  #navSettings {
+    height: auto;
+  }
+  .logoNav {
+    display: none;
+  }
+  #xmlPagesContent {
+    margin-top: 0vh;
+  }
+  footer {
+    margin-bottom: 10vh;
+  }
+  body .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+  }
+}
